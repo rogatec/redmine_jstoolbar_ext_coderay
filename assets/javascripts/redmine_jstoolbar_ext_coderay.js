@@ -42,7 +42,7 @@
     };
 
     var button_data = function(language){
-      return  { label: language, beg: '<pre><code class="' + language + '">\n', end: '\n</code></pre>' };
+      return  { label: language, beg: '~~~ ' + language + '">\n', end: '\n~~~\n' };
     };
 
     var build_button = function (data) {
